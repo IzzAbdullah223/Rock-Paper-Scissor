@@ -48,10 +48,11 @@ function playRound(){
         console.log(`human choice: ${humanChoice}`)
         console.log(`computer choice: ${computerChoice}`)
         humanScore+=1
-        console.log(`HUMAN WIN!\nHuman Score: ${humanScore}    Computer Score: ${computerScore}` )
+        console.log(`HUMAN WIN!\nHuman Score: ${humanScore}    Computer Score: ${computerScore}\n--------------------------` )
     }
 
     if(Round>5){
+        console.log(`HUMAN SCORE: ${humanScore}         COMPUTER SCORE: ${computerScore}`)
         if(humanScore>computerScore){
             console.log(`--------------------------------\nHUMAN IS THE WINNER!`)
         }
